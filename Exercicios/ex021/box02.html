@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groupin tags</title>
+    <style>
+        *{
+            font-family: sans-serif;
+        }
+        body{
+            width: 1200px;
+            margin: auto;
+            background-color: rgb(95, 95, 95);
+        }
+        header > h1{
+            text-align: center;
+            color: blue;
+            font-size: 3em;
+        }
+        nav{
+            padding: 3px;
+            background-color: lightblue;
+            border-radius: 3px;
+            border: 3px;
+            outline-color: black;
+            outline-style: solid;
+            outline: 10px;
+            box-shadow: 5px 5px 11px 0px rgba(0, 0, 0, 0.5);
+        }
+        nav :hover {
+            color: white;
+            text-decoration: underline;
+        }
+        nav > a{
+           
+            padding-left: 170px;
+            text-decoration: none;
+        }
+
+        main{
+            background-color: white;
+            border-radius:5px 5px;
+            margin: 30px auto 10px auto;
+        }
+        main > h1{
+            
+            margin: 20px 10px 5px 10px;
+            padding: 2px;
+            color: rgb(0, 0, 0);
+            font-size: 1em;
+            border: 2px;
+            text-align: center;
+            display: inline-block;
+            
+        }
+
+        main > section{
+            text-align: right;
+            font-weight: bold;
+        }
+        .artigo{
+            text-align: justify;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: white;
+        }
+
+        aside{
+            background-color: white;
+            text-align: right;
+            color: black;
+            margin-top: 1px;
+            display: flex;
+             margin:auto;
+        }
+        footer{
+            background-color: black;
+            text-align: center;
+            color: white;
+            margin: 10px auto 10px auto;
+            border: 2px;
+            border-radius: 2px;
+            padding: 2px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="principal">Meu Site</h1>
+        <nav>
+            <a href="#">Iniciar</a>
+            <a href="#">Iniciar</a>
+            <a href="#">Iniciar</a>
+            <a href="#">Iniciar</a>
+            <a href="#">Iniciar</a>
+        </nav>
+    </header>
+    <main>
+        <section>entreterimento</section>
+        <article class="artigo">
+            <h1>Noticias</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic enim, libero ducimus alias quia sequi ad possimus quaerat voluptates odio explicabo? Asperiores accusamus pariatur blanditiis doloremque odit ducimus id? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, rem aut illum numquam doloremque distinctio enim delectus? Laboriosam nemo tenetur consequatur a blanditiis quos debitis possimus, officiis magni, quisquam eaque. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda nihil accusamus quo dignissimos, nobis fugiat porro nisi commodi sit tempore voluptates vitae voluptas ut saepe amet officiis tempora! Rem, aperiam.</p>
+            <aside>
+                <p>Martins, Wallerson. 16-04-2002</p>
+            </aside>
+        </article>
+       
+    </main>
+    <footer>
+        Wallerson Martins
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repositorio de links</title>
+    <style>
+        #Titulo{
+            background-color: darkgrey;
+            text-align: center;
+
+        }
+
+        .site{
+            
+            text-decoration: none;
+            text-align: center;
+            color: black;
+        }
+        .site:hover{
+            text-decoration: underline;
+            color: red;
+            
+        }
+
+        .site::after{
+            color: rgba(255, 0, 0, 0.37);
+           content: " link";
+        }
+        li > a{
+            text-decoration: none;
+            color: red;
+            background-color: rgba(0, 255, 234, 0.288);
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1 id="Titulo">Repositorio de Links</h1>
+    <ul style{
+        item-align: center;
+    }>
+        <li><a href="https://gustavoguanabara.io">Repositorio gustavo</a></li>
+        <li><a href="https://facebook.com" target="_blank" rel="external" class="site">Facebook</a></li>
+        <li><a href="https://youtube.com" target="_blank" class="especial">Youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com/" target="_blank" class="especial site">Curso em Video</a></li>       
+        <li><a href="https://www.hotmart.com" class="aleatorio">Hotmart</a></li>
+    </ul>
+    
+</body>
+</html>
